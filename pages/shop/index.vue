@@ -15,11 +15,11 @@
     </div>
   </div>
 </template>
-
+ 
 <script lang="ts">
 import Vue from 'vue'
 import firebase from '@/plugins/firebase'
-
+ 
 export interface Shop {
   docId?: string
   image?: string
@@ -27,7 +27,7 @@ export interface Shop {
   score?: Number
   description?: string
 }
-
+ 
 export default Vue.extend({
   data: () => ({
     shops: [] as any,
@@ -38,7 +38,7 @@ export default Vue.extend({
     dbShops.get().then((querySnapshot) => {
       querySnapshot.forEach((doc) => {
         const data = doc.data()
-
+ 
         const shop: Shop = {
           docId: doc.id,
           image: data.image ? data.image : '/no-image.png',
@@ -57,7 +57,7 @@ export default Vue.extend({
   font-size: 24px;
   padding: 12px;
 }
-
+ 
 .shop-list {
   display: flex;
   flex-wrap: wrap;
