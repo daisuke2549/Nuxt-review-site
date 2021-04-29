@@ -72,6 +72,18 @@ export default Vue.extend({
       readOnly: true,
     },
   }),
+    head() {
+    return {
+      title: this.shop.shopName,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.shop.description,
+        },
+      ],
+    }
+  },
   created() {
     const db = firebase.firestore()
     const dbShop = db.collection('shops').doc(this.$route.params.id)
