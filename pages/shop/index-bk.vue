@@ -60,6 +60,9 @@ export default Vue.extend({
   margin-bottom:0px !important;
 }
 
+.content-title h2:hover{
+  color:blue;
+}
 
 .shop-list {
   display: flex;

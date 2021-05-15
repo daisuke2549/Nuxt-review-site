@@ -45,6 +45,10 @@ export default Vue.extend({
   height: 150px;
   object-fit: cover;
 }
+
+.shop-image img:hover {
+   opacity: 0.6;
+}
  
 .shop-info {
   padding: 4px;
