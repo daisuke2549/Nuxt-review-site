@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="content-title">人気のお店</div>
+    <div class="content-title">
+      <h2>人気のお店</h2>
+      <p>クリックするとお店の詳細画面に遷移します</p>
+    </div>
     <div class="shop-list">
       <div v-for="shop in shops" :key="shop.index">
         <Shop
@@ -53,6 +56,10 @@ export default Vue.extend({
   font-size: 24px;
   padding: 12px;
 }
+.content-title h2{
+  margin-bottom:0px !important;
+}
+
 
 .shop-list {
   display: flex;

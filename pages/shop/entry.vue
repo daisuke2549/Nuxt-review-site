@@ -111,7 +111,6 @@ h2 {
 }
 .shop-entry h2:hover{
    color:blue;
-   background-color: blue;
 }
 
 
@@ -162,6 +161,9 @@ textarea {
   color: white;
   background-color: cornflowerblue;
   border: 0px;
+}
+button.entry-btn:hover{
+  opacity: 0.6;
 }
 
 .message {

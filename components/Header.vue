@@ -6,7 +6,7 @@
     </div>
     <div>
       <nuxt-link class="menu" to="/shop/"> お店 </nuxt-link>
-      <nuxt-link class="menu" to="/shop/entry"> 登録 </nuxt-link>
+      <nuxt-link class="menu" to="/shop/entry"> 登録はこちらから</nuxt-link>
     </div>
   </div>
 </template>
