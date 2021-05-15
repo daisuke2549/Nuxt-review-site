@@ -24,6 +24,9 @@
   font-size: 50px;
   padding: 12px 24px;
 }
+.logo-text:hover{
+  color:red;
+}
  
 .sub-title {
   font-size: 18px;

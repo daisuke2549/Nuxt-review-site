@@ -57,6 +57,10 @@ export default Vue.extend({
   font-size: 24px;
   padding: 12px;
 }
+
+.content-title:hover{
+  color:red;
+}
  
 .shop-list {
   display: flex;

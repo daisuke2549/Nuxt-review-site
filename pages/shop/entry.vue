@@ -107,8 +107,13 @@ export default Vue.extend({
 
 <style>
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px !important;
 }
+.shop-entry h2:hover{
+   color:blue;
+   background-color: blue;
+}
+
 
 .shop-entry {
   width: 600px;
