@@ -123,6 +123,11 @@ h2 {
   box-shadow: 1px 1px 4px 1px rgb(218, 218, 218);
   color: #333;
 }
+@media screen and (max-width: 767px) {
+  .shop-entry {
+  width: 100%;
+  }
+}
 
 .preview-image {
   width: 100%;
@@ -144,9 +149,21 @@ input[type='text'] {
   width: 400px;
   font-size: 18px;
 }
+@media screen and (max-width: 767px) {
+  input[type='text'] {
+  width: 100%;
+  }
+}
+
 textarea {
   width: 400px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  textarea {
+  width: 100%;
+  }
 }
 
 .entry-btn {

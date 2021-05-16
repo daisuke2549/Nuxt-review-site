@@ -139,6 +139,12 @@ h3 {
   margin-bottom: 16px;
   color: #333;
 }
+
+@media screen and (max-width: 767px) {
+ .shop-detail {
+  width: 100%;
+ }
+}
  
 .preview-image {
   width: 100%;
